@@ -8,6 +8,8 @@ minute = Unit(name='minute', abbr='min', si=second, to_si_fun=lambda n: n * 60)
 hour = Unit(name='hour', abbr='h', si=second, to_si_fun=lambda n: n * 3600)
 h = hour
 
+fortnight = Unit(name='fortnight', abbr='fortn', si=second, to_si_fun=lambda n: n * 1209600)
+
 # meter
 kilometer = Unit(name='kilometer', abbr="km", si=meter, to_si_fun=lambda n: n * 1000)
 km = kilometer
